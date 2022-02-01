@@ -67,6 +67,16 @@
                            
         
     }
+
+    #video{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-evenly;
+        background-color: #B5F2B3;
+
+    }
     #DIVMAININDEX{
         grid-area: a5;
         background-color: #B5F2B3; 
