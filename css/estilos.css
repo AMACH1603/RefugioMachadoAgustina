@@ -39,15 +39,7 @@ nav {
 #mainindex {
   background-color: #B5F2B3; }
 
-#video {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  justify-content: space-evenly;
-  background-color: #B5F2B3; }
-
-#divGatoGris {
+#divGatoGris, #video, #h5 {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -55,9 +47,6 @@ nav {
 
 #h5 {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: #B5F2B3;
   color: black;
   text-align: justify;
   font-size: 50px; }
@@ -72,54 +61,31 @@ nav {
   height: 500px;
   background-color: #B5F2B3; }
 
-#carouselExampleCaptions {
+#carouselExampleCaptions, .carousel-item {
   width: 100%;
   height: 100%; }
-
-.carousel-item {
-  width: 100%;
-  height: 100%; }
-
-#Adop {
-  font-weight: 600;
-  font-size: 25px;
-  text-align: center;
-  grid-area: a1; }
-
-#DIVMAIN1 {
-  grid-area: a5; }
-
-#DIVMAIN2 {
-  grid-area: a6;
-  display: flex;
-  align-items: center; }
-
-#DIVMAIN3 {
-  grid-area: a4;
-  display: flex;
-  align-items: center; }
 
 /*MAINGATERAS*/
 .maingateras {
   background-color: #B5F2B3;
   width: 100%;
-  height: 600px;
+  height: 500px;
   display: grid;
   grid-template-areas: "a1 a2 a3"; }
 
 #A1 {
   grid-area: a1;
-  height: 100%;
+  height: 60%;
   width: 100%; }
 
 #A2 {
   grid-area: a2;
-  height: 100%;
+  height: 60%;
   width: 100%; }
 
 #A3 {
   grid-area: a3;
-  height: 100%;
+  height: 60%;
   width: 100%; }
 
 /*MAINSORTEOS*/
@@ -155,21 +121,21 @@ nav {
 
 #PSorteos {
   font-size: 30px;
-  grid-area: a1;
+  text-align: center;
   background-color: #B5F2B3;
-  text-align: center; }
+  grid-area: a1; }
 
 #Prem {
   font-size: 30px;
-  grid-area: a3;
+  text-align: center;
   background-color: #B5F2B3;
-  text-align: center; }
+  grid-area: a3; }
 
 #boton {
-  grid-area: a5;
-  background-color: #B5F2B3;
   font-size: 30px;
-  text-align: center; }
+  text-align: center;
+  background-color: #B5F2B3;
+  grid-area: a5; }
 
 /*MAINCONTACTO*/
 #MAINCONTACTO {
@@ -217,50 +183,41 @@ ul {
     justify-content: center;
     text-align: center; }
   #MAININDEX {
+    background-color: #B5F2B3;
     display: grid;
-    height: 1100px;
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-areas: "a1" "a2" "a3" "a4"; }
-  #DIVMAININDEX {
-    grid-area: a2; }
-  #DIVMAININDEX1 {
-    grid-area: a1; }
-  #DIVMAININDEX2 {
-    grid-area: a3; }
-  #DIVMAININDEX3 {
-    grid-area: a4; }
+    height: 1100px; }
+  #video {
+    justify-content: space-around;
+    flex-direction: column; }
   footer {
     height: 60px; }
-  #FooterUno {
-    Margin-top: 30px; }
-  #mainadop {
-    display: grid;
-    background-color: #B5F2B3;
-    grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 20% 80%;
-    grid-template-areas: "a1 a1 a1" "a4 a5 a6"; }
-  #Adop {
-    font-weight: 600;
-    font-size: 25px;
-    text-align: center;
-    grid-area: a1; }
-  #DIVMAIN1 {
-    grid-area: a5; }
-  #DIVMAIN2 {
-    grid-area: a6; }
-  #DIVMAIN3 {
-    grid-area: a4; }
   #mainsorteo {
+    width: 100%;
     height: 600px; }
-  #header {
-    height: 600px; } }
+  #ImgCalendario {
+    height: 100%;
+    width: 100%; }
+  #Imgpremio {
+    height: 100%;
+    width: 100%; }
+  #maingateras {
+    height: 600px;
+    width: 100%; }
+  #divheader {
+    height: 100%; } }
 
 @media only screen and (min-width: 600px) {
   .navul {
-    font-size: 20px; }
+    font-size: 20px;
+    align-content: center; }
   footer {
-    height: 60px; } }
+    height: 60px; }
+  #ImgCalendario {
+    height: 100%;
+    width: 100%; }
+  #Imgpremio {
+    height: 100%;
+    width: 100%; } }
 
 @media only screen and (min-width: 992px) {
   * {
