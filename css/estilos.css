@@ -21,7 +21,7 @@ nav {
   background: #F2EC99;
   font-size: 30px; }
   nav ul {
-    justify-content: end;
+    justify-content: center;
     list-style: none;
     display: flex;
     justify-content: space-between;
