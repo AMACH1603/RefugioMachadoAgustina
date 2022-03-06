@@ -33,54 +33,50 @@
       </div> 
     </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light background-color">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="..//img/favicon-32x32.png" alt="" width="30" height="24">
-        </a>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <a class="nav-link active" aria-current="page" href="..//index.html">Home</a>
+        <a class="nav-link" href="adopciones.html">Adopciones</a>
+        <a class="nav-link" href="gateras.html">Gateras</a>
+        <a class="nav-link" href="sorteos.html">Sorteo</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
       </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex flex-row-center" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="..//index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="adopciones.html">Adopciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gateras.html">Gateras</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sorteos.html">Sorteo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-           
-          
-        </div>
       </div>
     </nav>
-      <main>
-    <main id="maincontacto">
-        
-        <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Tu Mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Sugerencias y comentarios</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-    </main>
+      </div>
+    </nav>
+    <main class="MainContacto" >
+      
+      <div id="Scontacto">
+              <legend class="animate__fadeInTopLeft animate__animated animate__bounce">DEJANOS TU CONSULTA</legend>
+          <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Comentario:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aqui"></textarea>
+                  <button type="submit" class="btn btn-primary animate__headShake animate__animated animate__bounce animate__infinite">ENVIAR</button>
+              </div>              
+      <div id="FContacto">
+              <legend class="animate__fadeInTopRight animate__animated animate__bounce" >PARA ADOPTAR</legend>
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe aqui"></textarea>
+                  <button type="submit" class="btn btn-primary animate__headShake animate__animated animate__bounce animate__infinite">ENVIAR</button>
+              </div>
+      </div>
+</main>
         <footer>
           <div class="social">
             <ul>
